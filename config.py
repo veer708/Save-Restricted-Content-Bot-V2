@@ -13,17 +13,17 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = int(getenv("API_ID", "22216834"))
-API_HASH = getenv("API_HASH", "c50044544e93eb670fbe5ad8d952fe7f")
+API_ID = int(getenv("API_ID", "28473509"))
+API_HASH = getenv("API_HASH", "f56218a21931d5f4ddcf0f0354256816")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "7081893529").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://lraj46546:qFdXtLZ8ZxkiMGKt@cluster0.ve1w1qf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP = getenv("LOG_GROUP", "-1002296494816")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002632945459"))
-FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "10"))
-PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "50000"))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5698467921").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://superk7070:DRlvIYSLRSDXzXAL@cluster0.xitnxo7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = getenv("LOG_GROUP", "-1002658109909")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002593438169"))
+FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "100"))
+PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "5000"))
 WEBSITE_URL = getenv("WEBSITE_URL", "https://t.me/all_inone_content")
-AD_API = getenv("AD_API", "c50044544e93eb670fbe5ad8d952fe7f")
+AD_API = getenv("AD_API", "f56218a21931d5f4ddcf0f0354256816")
 STRING = getenv("STRING", None)
 YT_COOKIES = getenv("YT_COOKIES", YTUB_COOKIES)
 DEFAULT_SESSION = getenv("DEFAUL_SESSION", None)  # added old method of invite link joining
